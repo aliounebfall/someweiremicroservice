@@ -13,3 +13,5 @@ To run the microservice, you will need :
 * A **Zookeeper** node, to manage Kafka group ids. Pull the docker image **zookeeper**.
 
 * A **Kafka** node, to publish transfer events for Weive Tokens and the Artifact Token to the subscribers. Pull the docker image **confluentinc/cp-kafka**.
+
+Edit the .env file with your custom URIs to run the microservice.
